@@ -1,13 +1,29 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "name": "soccer_player_api",
+  "version": "1.0.0",
+  "description": "A basic api for soccer players",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greyhat777/api.git"
+  },
+  "keywords": [
+    "soccer",
+    "api"
+  ],
+  "author": "Jesus .Z Tellez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greyhat777/api/issues"
+  },
+  "homepage": "https://github.com/greyhat777/api#readme",
   "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.1"
   }
 }
